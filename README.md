@@ -4,4 +4,4 @@ A quick and dirty demo to use embedding to search on documentation to answer use
 
 ## Run
 
-podman run -it -e OPENAI_API_KEY=xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --rm --name docsearch ghcr.io/Stell0/docsearch:latest
+podman run -it -e OPENAI_API_KEY=xx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --rm --name docsearch ghcr.io/stell0/docsearch:latest

@@ -13,7 +13,7 @@ df['embedding'] = df.embedding.apply(eval).apply(np.array)
 
 while True:
 	# get search query from user
-	query = input("inserisci la tua domanda: ")
+	query = input("Ask a question: ")
 
 	# get embedding of query
 	query_embedding = get_embedding(query, engine='text-embedding-ada-002')
